@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "DataProvider_Suite" verbose="1">
+	<test name = "registrationTest">
+		<classes>
+			<class name ="DataProviderTestCases.TestNGParameterizationExcel">
+				<methods>
+				 <include name="testData" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

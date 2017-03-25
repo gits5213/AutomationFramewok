@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DataProvider_Suite]">
+  <test name="registrationTest(failed)">
+    <classes>
+      <class name="DataProviderTestCases.TestNGParameterizationExcel">
+        <methods>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- DataProviderTestCases.TestNGParameterizationExcel -->
+    </classes>
+  </test> <!-- registrationTest(failed) -->
+</suite> <!-- Failed suite [DataProvider_Suite] -->
